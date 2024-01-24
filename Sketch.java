@@ -4,7 +4,7 @@ import processing.core.PImage;
 
 /**
  * An Attack on Titan themed fighting game
- * 
+ * @author: T. Chhor
  */
 
 public class Sketch extends PApplet {
@@ -68,8 +68,8 @@ public class Sketch extends PApplet {
     int player2Facing = -1;
     int drawPointX = 0;
     int drawPointY = 0;
-    int player1HP = 200;
-    int player2HP = 200;
+    int player1HP = 10;
+    int player2HP = 10;
     float choice1 = 1;
     float choice2 = 1;
     float rads1 = 0;
